@@ -1,2 +1,2 @@
 # design-patterns
-I have gathered various implementations of deign patterns in Java.
+I have gathered various implementations of design patterns in Java.
