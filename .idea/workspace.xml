@@ -2,29 +2,54 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3731312-f528-4bde-af9b-e7310c35d1cf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/builder/aircraft/AircraftBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/builder/aircraft/Director.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/builder/aircraft/F16.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/builder/aircraft/F16Builder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/builder/aircraft/F35.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/builder/aircraft/F35Builder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/builder/aircraft/IAircraft.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/builder/aircraft/TestClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/builder/car/Builder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/builder/car/CarBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/builder/car/CarManualBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/builder/car/Director.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/builder/car/TestClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/builder/car/cars/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/builder/car/cars/Manual.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/builder/car/cars/Type.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/builder/car/components/Engine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/builder/car/components/GPSNavigator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/builder/car/components/Transmission.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/builder/car/components/TripComputer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creational/builder/meal/AdultMealBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creational/builder/meal/KidsMealBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creational/builder/meal/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creational/builder/meal/Meal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creational/builder/meal/MealBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creational/builder/meal/MealDirector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creational/prototype/aircraft/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creational/prototype/aircraft/F16.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creational/prototype/aircraft/F16AEngine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creational/prototype/aircraft/F16BEngine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creational/prototype/aircraft/F16Engine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creational/prototype/aircraft/IAircraftPrototype.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creational/prototype/aircraft/bookstore/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creational/prototype/aircraft/bookstore/CD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creational/prototype/aircraft/bookstore/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creational/prototype/aircraft/bookstore/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creational/prototype/aircraft/bookstore/ItemRegistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creational/prototype/aircraft/shapes/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creational/prototype/aircraft/shapes/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creational/prototype/aircraft/shapes/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creational/prototype/aircraft/shapes/RegistryClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creational/prototype/aircraft/shapes/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creational/prototype/aircraft/shapes/ShapeRegistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creational/singleton/SingleThreadedSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creational/singleton/ThreadSafeSingleton1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creational/singleton/ThreadSafeSingleton2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creational/singleton/ThreadSafeSingletonDoubleCheck.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/builder/aircraft/AircraftBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/builder/aircraft/AircraftBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/builder/aircraft/Director.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/builder/aircraft/Director.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/builder/aircraft/F16.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/builder/aircraft/F16.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/builder/aircraft/F16Builder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/builder/aircraft/F16Builder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/builder/aircraft/F35.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/builder/aircraft/F35.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/builder/aircraft/F35Builder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/builder/aircraft/F35Builder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/builder/aircraft/IAircraft.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/builder/aircraft/IAircraft.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/builder/aircraft/TestClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/builder/aircraft/TestClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/builder/car/Builder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/builder/car/Builder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/builder/car/CarBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/builder/car/CarBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/builder/car/CarManualBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/builder/car/CarManualBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/builder/car/Director.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/builder/car/Director.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/builder/car/TestClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/builder/car/TestClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/builder/car/cars/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/builder/car/cars/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/builder/car/cars/Manual.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/builder/car/cars/Manual.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/builder/car/cars/Type.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/builder/car/cars/Type.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/builder/car/components/Engine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/builder/car/components/Engine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/builder/car/components/GPSNavigator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/builder/car/components/GPSNavigator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/builder/car/components/Transmission.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/builder/car/components/Transmission.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/builder/car/components/TripComputer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/builder/car/components/TripComputer.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,9 +75,12 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../gonullu" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="creational.prototype.aircraft.bookstore" />
+      <recent name="creational.prototype.aircraft" />
       <recent name="builder.car.components" />
       <recent name="builder.car.cars" />
       <recent name="builder.aircraft" />
@@ -70,13 +98,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestClient (1)">
-    <configuration name="TestClient (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="builder.car.TestClient" />
+  <component name="RunManager" selected="Application.Client (2)">
+    <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="creational.prototype.aircraft.shapes.Client" />
       <module name="design-patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="builder.car.*" />
+          <option name="PATTERN" value="creational.prototype.aircraft.shapes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,12 +112,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="builder.aircraft.TestClient" />
+    <configuration name="Client (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="creational.prototype.aircraft.bookstore.Client" />
       <module name="design-patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="builder.aircraft.*" />
+          <option name="PATTERN" value="creational.prototype.aircraft.bookstore.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="creational.prototype.aircraft.Client" />
+      <module name="design-patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="creational.prototype.aircraft.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="creational.builder.meal.Main" />
+      <module name="design-patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="creational.builder.meal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegistryClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="creational.prototype.aircraft.shapes.RegistryClient" />
+      <module name="design-patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="creational.prototype.aircraft.shapes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,8 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestClient (1)" />
-        <item itemvalue="Application.TestClient" />
+        <item itemvalue="Application.Client (2)" />
+        <item itemvalue="Application.RegistryClient" />
+        <item itemvalue="Application.Client (1)" />
+        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -115,6 +185,9 @@
       <option name="presentableId" value="Default" />
       <updated>1577357849394</updated>
       <workItem from="1577357852235" duration="3630000" />
+      <workItem from="1577459743958" duration="58000" />
+      <workItem from="1577684147089" duration="2303000" />
+      <workItem from="1578294978912" duration="5621000" />
     </task>
     <servers />
   </component>
@@ -126,7 +199,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
