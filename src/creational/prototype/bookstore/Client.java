@@ -1,4 +1,4 @@
-package creational.prototype.aircraft.bookstore;
+package creational.prototype.bookstore;
 
 public class Client {
     public static void main(String[] args) {

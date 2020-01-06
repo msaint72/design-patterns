@@ -1,4 +1,4 @@
-package creational.prototype.aircraft.bookstore;
+package creational.prototype.bookstore;
 
 import java.util.Hashtable;
 

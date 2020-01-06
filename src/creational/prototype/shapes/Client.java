@@ -1,4 +1,4 @@
-package creational.prototype.aircraft.shapes;
+package creational.prototype.shapes;
 
 import java.util.ArrayList;
 import java.util.List;

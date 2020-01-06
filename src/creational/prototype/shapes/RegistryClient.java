@@ -1,4 +1,4 @@
-package creational.prototype.aircraft.shapes;
+package creational.prototype.shapes;
 
 public class RegistryClient {
     public static void main(String[] args) {

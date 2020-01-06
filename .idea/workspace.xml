@@ -2,7 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3731312-f528-4bde-af9b-e7310c35d1cf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/creational/prototype/aircraft/bookstore/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/prototype/bookstore/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/creational/prototype/aircraft/bookstore/CD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/prototype/bookstore/CD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/creational/prototype/aircraft/bookstore/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/prototype/bookstore/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/creational/prototype/aircraft/bookstore/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/prototype/bookstore/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/creational/prototype/aircraft/bookstore/ItemRegistry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/prototype/bookstore/ItemRegistry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/creational/prototype/aircraft/shapes/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/prototype/shapes/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/creational/prototype/aircraft/shapes/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/prototype/shapes/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/creational/prototype/aircraft/shapes/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/prototype/shapes/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/creational/prototype/aircraft/shapes/RegistryClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/prototype/shapes/RegistryClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/creational/prototype/aircraft/shapes/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/prototype/shapes/Shape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/creational/prototype/aircraft/shapes/ShapeRegistry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/prototype/shapes/ShapeRegistry.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -79,11 +89,11 @@
       </method>
     </configuration>
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="creational.prototype.aircraft.Client" />
+      <option name="MAIN_CLASS_NAME" value="creational.prototype.aircraft.aircraft.Client" />
       <module name="design-patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="creational.prototype.aircraft.*" />
+          <option name="PATTERN" value="creational.prototype.aircraft.aircraft.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,7 +150,7 @@
       <workItem from="1577357852235" duration="3630000" />
       <workItem from="1577459743958" duration="58000" />
       <workItem from="1577684147089" duration="2303000" />
-      <workItem from="1578294978912" duration="6053000" />
+      <workItem from="1578294978912" duration="6302000" />
     </task>
     <servers />
   </component>

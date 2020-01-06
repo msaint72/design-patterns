@@ -1,4 +1,4 @@
-package creational.prototype.aircraft.bookstore;
+package creational.prototype.bookstore;
 // prototypw
 public abstract class Item implements Cloneable {
     private String title;

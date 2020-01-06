@@ -1,4 +1,4 @@
-package creational.prototype.aircraft.shapes;
+package creational.prototype.shapes;
 
 public class Rectangle extends Shape {
     public int width;
