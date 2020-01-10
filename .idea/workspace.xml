@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c3731312-f528-4bde-af9b-e7310c35d1cf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/creational/prototype/aircraft/bookstore/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/prototype/bookstore/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/creational/prototype/aircraft/bookstore/CD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/prototype/bookstore/CD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/creational/prototype/aircraft/bookstore/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/prototype/bookstore/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/creational/prototype/aircraft/bookstore/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/prototype/bookstore/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/creational/prototype/aircraft/bookstore/ItemRegistry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/prototype/bookstore/ItemRegistry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/creational/prototype/aircraft/shapes/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/prototype/shapes/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/creational/prototype/aircraft/shapes/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/prototype/shapes/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/creational/prototype/aircraft/shapes/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/prototype/shapes/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/creational/prototype/aircraft/shapes/RegistryClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/prototype/shapes/RegistryClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/creational/prototype/aircraft/shapes/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/prototype/shapes/Shape.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/creational/prototype/aircraft/shapes/ShapeRegistry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/prototype/shapes/ShapeRegistry.java" afterDir="false" />
+    <list default="true" id="c3731312-f528-4bde-af9b-e7310c35d1cf" name="Default Changelist" comment="add factory method examples">
+      <change afterPath="$PROJECT_DIR$/src/creational/factorymethod/buttons/Button.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creational/factorymethod/buttons/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creational/factorymethod/buttons/HtmlButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creational/factorymethod/buttons/WindowsButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creational/factorymethod/buttons/factory/Dialog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creational/factorymethod/buttons/factory/HtmlDialog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creational/factorymethod/buttons/factory/WindowsDialog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creational/factorymethod/logger/AbstractLoggerCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creational/factorymethod/logger/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creational/factorymethod/logger/Logger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creational/factorymethod/logger/XMLLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creational/factorymethod/logger/XMLLoggerCreator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +63,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Client (2)">
+  <component name="RunManager" selected="Application.Client (4)">
     <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="creational.prototype.aircraft.shapes.Client" />
       <module name="design-patterns" />
@@ -88,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="creational.prototype.aircraft.aircraft.Client" />
+    <configuration name="Client (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="creational.factorymethod.buttons.Client" />
       <module name="design-patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="creational.prototype.aircraft.aircraft.*" />
+          <option name="PATTERN" value="creational.factorymethod.buttons.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="creational.builder.meal.Main" />
+    <configuration name="Client (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="creational.factorymethod.logger.Client" />
       <module name="design-patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="creational.builder.meal.*" />
+          <option name="PATTERN" value="creational.factorymethod.logger.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client (4)" />
+        <item itemvalue="Application.Client (3)" />
         <item itemvalue="Application.Client (2)" />
         <item itemvalue="Application.RegistryClient" />
         <item itemvalue="Application.Client (1)" />
-        <item itemvalue="Application.Client" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -150,7 +152,7 @@
       <workItem from="1577357852235" duration="3630000" />
       <workItem from="1577459743958" duration="58000" />
       <workItem from="1577684147089" duration="2303000" />
-      <workItem from="1578294978912" duration="6302000" />
+      <workItem from="1578294978912" duration="9467000" />
     </task>
     <servers />
   </component>
@@ -169,5 +171,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add factory method examples" />
+    <option name="LAST_COMMIT_MESSAGE" value="add factory method examples" />
   </component>
 </project>
