@@ -1,0 +1,20 @@
+package structural.adapter;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class SortListAdapter implements Sorter {
+	@Override
+	public int[] sort(int[] numbers) { 
+		// convert the array to a List
+		List<Integer> numberList = new ArrayList<Integer>();
+		for(int i :numbers) {
+			numberList.add(i);
+		}
+		// call the adapter
+		NumberSorter sorter = new NumberSorter();
+		numberList = sorter.sort(numberList); // convert the list back to an array and return
+		int[] sortedNumbers=numberList.stream().mapToInt(i->i).toArray();;
+		return sortedNumbers;
+	}
+}
