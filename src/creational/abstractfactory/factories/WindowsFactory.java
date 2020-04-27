@@ -1,9 +1,9 @@
-package creational.abstractfactory.uiwidgets.factories;
+package creational.abstractfactory.factories;
 
-import creational.abstractfactory.uiwidgets.buttons.Button;
-import creational.abstractfactory.uiwidgets.buttons.WindowsButton;
-import creational.abstractfactory.uiwidgets.checkboxes.Checkbox;
-import creational.abstractfactory.uiwidgets.checkboxes.WindowsCheckbox;
+import creational.abstractfactory.buttons.Button;
+import creational.abstractfactory.buttons.WindowsButton;
+import creational.abstractfactory.checkboxes.Checkbox;
+import creational.abstractfactory.checkboxes.WindowsCheckbox;
 
 /**
  * Each concrete factory extends basic factory and responsible for creating

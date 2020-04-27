@@ -1,4 +1,4 @@
-package creational.abstractfactory.uiwidgets.checkboxes;
+package creational.abstractfactory.checkboxes;
 
 /**
  * All products families have the same varieties (MacOS/Windows).

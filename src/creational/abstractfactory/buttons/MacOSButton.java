@@ -1,4 +1,4 @@
-package creational.abstractfactory.uiwidgets.buttons;
+package creational.abstractfactory.buttons;
 /**
  * All products families have the same varieties (MacOS/Windows).
  *

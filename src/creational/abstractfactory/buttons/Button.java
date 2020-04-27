@@ -1,4 +1,4 @@
-package creational.abstractfactory.uiwidgets.buttons;
+package creational.abstractfactory.buttons;
 
 /**
  * Abstract Factory assumes that you have several families of products,

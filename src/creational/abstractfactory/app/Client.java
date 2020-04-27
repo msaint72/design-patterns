@@ -1,8 +1,8 @@
-package creational.abstractfactory.uiwidgets.app;
+package creational.abstractfactory.app;
 
-import creational.abstractfactory.uiwidgets.factories.GUIFactory;
-import creational.abstractfactory.uiwidgets.factories.MacOSFactory;
-import creational.abstractfactory.uiwidgets.factories.WindowsFactory;
+import creational.abstractfactory.factories.GUIFactory;
+import creational.abstractfactory.factories.MacOSFactory;
+import creational.abstractfactory.factories.WindowsFactory;
 
 /**
  * Demo class. Everything comes together here.

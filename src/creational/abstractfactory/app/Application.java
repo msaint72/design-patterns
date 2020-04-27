@@ -1,8 +1,8 @@
-package creational.abstractfactory.uiwidgets.app;
+package creational.abstractfactory.app;
 
-import creational.abstractfactory.uiwidgets.buttons.Button;
-import creational.abstractfactory.uiwidgets.checkboxes.Checkbox;
-import creational.abstractfactory.uiwidgets.factories.GUIFactory;
+import creational.abstractfactory.buttons.Button;
+import creational.abstractfactory.checkboxes.Checkbox;
+import creational.abstractfactory.factories.GUIFactory;
 
 /**
  * Factory users don't care which concrete factory they use since they work with
